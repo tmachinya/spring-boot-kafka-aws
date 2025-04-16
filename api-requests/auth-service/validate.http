@@ -1,0 +1,5 @@
+### GET request to validate tiken
+GET localhost:4004/auth/validate
+Authorization: Bearer {{token}}
+
+###
