@@ -1,14 +1,14 @@
 ### GET request to example server
-POST http://lb-6c326952.elb.localhost.localstack.cloud:4004/api/patients
+POST http://lb-9b5d382a.elb.localhost.localstack.cloud:4004/api/patients
 Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
-  "name": "Tinomudaishe",
-  "email": "tinomudaishe@gmail.com",
-  "address": "4311 57th Ave aapt 71th",
+  "name": "Zaylee Tinomudaishe Machinya",
+  "email": "tinoZr@gmail.com",
+  "address": "4311 57th Ave apt 7",
   "dateOfBirth": "2021-06-13",
-  "registeredDate": "2025-04-04"
+  "registeredDate": "2025-04-16"
 }
 
 ###
