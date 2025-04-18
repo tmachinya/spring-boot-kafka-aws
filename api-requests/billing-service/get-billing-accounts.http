@@ -1,0 +1,4 @@
+### GET request to get all billing-accounts
+GET http://lb-40116ed8.elb.localhost.localstack.cloud:4004/api/billing-accounts
+Authorization: Bearer {{token}}
+###

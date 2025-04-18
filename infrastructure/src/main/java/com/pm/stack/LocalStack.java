@@ -50,6 +50,9 @@ public class LocalStack extends Stack {
         DatabaseInstance authServiceDb =
                 createDatabase("AuthServiceDB", "auth-service-db");
 
+        DatabaseInstance billingServiceDb =
+                createDatabase("BillingServiceDB", "billing-service-db");
+
         DatabaseInstance patientServiceDb =
                 createDatabase("PatientServiceDB", "patient-service-db");
 
@@ -58,6 +61,9 @@ public class LocalStack extends Stack {
 
         CfnHealthCheck patientDbHealthCheck =
                 createDbHealthCheck(patientServiceDb, "PatientServiceDBHealthCheck");
+
+        CfnHealthCheck billingDbHealthCheck =
+                createDbHealthCheck(billingServiceDb, "BillingServiceDBHealthCheck");
 
         CfnCluster mskCluster = createMskCluster();
 
@@ -77,8 +83,10 @@ public class LocalStack extends Stack {
                 createFargateService("BillingService",
                         "billing-service",
                         List.of(4001,9001),
-                        null,
+                        billingServiceDb,
                         null);
+        billingService.getNode().addDependency(billingDbHealthCheck);
+        billingService.getNode().addDependency(billingServiceDb);
 
         FargateService analyticsService =
                 createFargateService("AnalyticsService",

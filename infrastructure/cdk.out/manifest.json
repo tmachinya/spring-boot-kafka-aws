@@ -180,6 +180,36 @@
             "data": "AuthServiceDBC6B688BA"
           }
         ],
+        "/localstack/BillingServiceDB/SubnetGroup/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BillingServiceDBSubnetGroupEB5E22C5"
+          }
+        ],
+        "/localstack/BillingServiceDB/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BillingServiceDBSecurityGroup12A173DF"
+          }
+        ],
+        "/localstack/BillingServiceDB/Secret/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "localstackBillingServiceDBSecret8472D72B3fdaad7efa858a3daf9490cf0a702aeb"
+          }
+        ],
+        "/localstack/BillingServiceDB/Secret/Attachment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BillingServiceDBSecretAttachment74BDCA41"
+          }
+        ],
+        "/localstack/BillingServiceDB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BillingServiceDB90782D8A"
+          }
+        ],
         "/localstack/PatientServiceDB/SubnetGroup/Default": [
           {
             "type": "aws:cdk:logicalId",
@@ -220,6 +250,12 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "PatientServiceDBHealthCheck"
+          }
+        ],
+        "/localstack/BillingServiceDBHealthCheck": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BillingServiceDBHealthCheck"
           }
         ],
         "/localstack/MskCluster": [
@@ -275,16 +311,16 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15471:36)",
-              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15431:22)",
-              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15432:46)",
-              "processImmediate (node:internal/timers:466:21)"
+              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15471:36)",
+              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15431:22)",
+              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15432:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
             ]
           }
         ],
@@ -335,16 +371,16 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15471:36)",
-              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15431:22)",
-              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15432:46)",
-              "processImmediate (node:internal/timers:466:21)"
+              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15471:36)",
+              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15431:22)",
+              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15432:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
             ]
           }
         ],
@@ -395,16 +431,16 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15471:36)",
-              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15431:22)",
-              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15432:46)",
-              "processImmediate (node:internal/timers:466:21)"
+              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15471:36)",
+              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15431:22)",
+              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15432:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
             ]
           }
         ],
@@ -455,16 +491,16 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15471:36)",
-              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15431:22)",
-              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15432:46)",
-              "processImmediate (node:internal/timers:466:21)"
+              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15471:36)",
+              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15431:22)",
+              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15432:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
             ]
           }
         ],
@@ -557,17 +593,17 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "new ApplicationLoadBalancedFargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-zhDnEk\\node_modules\\aws-cdk-lib\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:1:3340)",
-              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15471:36)",
-              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15431:22)",
-              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime9511976860373960499\\lib\\program.js:15432:46)",
-              "processImmediate (node:internal/timers:466:21)"
+              "Annotations.addMessage (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-kernel-Vt9YXi\\node_modules\\aws-cdk-lib\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:1:3340)",
+              "Kernel._Kernel_create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15471:36)",
+              "KernelHost.run (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15431:22)",
+              "Immediate._onImmediate (C:\\Users\\user\\AppData\\Local\\Temp\\jsii-java-runtime11455543577751337307\\lib\\program.js:15432:46)",
+              "process.processImmediate (node:internal/timers:491:21)"
             ]
           }
         ],
